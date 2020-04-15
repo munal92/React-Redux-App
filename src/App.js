@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import  Home from './components/Home';
-
+import "./App.css";
+import Home from "./components/Home";
+import Charts from "./components/Charts";
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Home />
+      <Charts />
     </div>
   );
 }
